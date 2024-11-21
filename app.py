@@ -3,11 +3,11 @@ import pickle
 import pandas as pd
 # from googletrans import Translator
 
-def translate_to_hindi(text):
-    # Function to translate text to Hindi
-    translator = Translator()
-    translated_text = translator.translate(text, dest='hi').text
-    return translated_text
+# def translate_to_hindi(text):
+#     # Function to translate text to Hindi
+#     # translator = Translator()
+#     translated_text = translator.translate(text, dest='hi').text
+#     return translated_text
 
 # Set Streamlit page configuration
 st.set_page_config(page_title="Ayurtech", page_icon="🌿")
