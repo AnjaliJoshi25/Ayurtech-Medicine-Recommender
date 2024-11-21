@@ -169,7 +169,7 @@ if st.button('Recommend Medicine'):
     recommendations = recommend(selected_medicine_name)
     
     recommendation_df = pd.DataFrame(recommendations)
-    recommendation_df['Ayurvedic Official Name'] = recommendation_df['Name_of_Medicine'].apply(translate_to_hindi)
+    # recommendation_df['Ayurvedic Official Name'] = recommendation_df['Name_of_Medicine'].apply(translate_to_hindi)
     
     custom_css = """
         <style>
