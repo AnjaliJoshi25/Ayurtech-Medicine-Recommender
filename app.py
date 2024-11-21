@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 import pandas as pd
-from googletrans import Translator
+# from googletrans import Translator
 
 def translate_to_hindi(text):
     # Function to translate text to Hindi
